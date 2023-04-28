@@ -1,0 +1,48 @@
+* {
+  margin:0;
+  padding:0
+}
+
+#businessList {
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+
+#business {
+  display:flex;
+  margin: 3rem;
+  width:40vh;
+  flex-direction: column;
+  background: #000000;
+  color:white ;
+  padding:1rem;
+}
+
+#business #left {
+  margin-right:auto;
+  align-items: flex-end;
+}
+
+#businessDetails {
+  display: flex;
+}
+
+#business #right {
+  margin-left: auto;
+  align-items: flex-start;
+}
+
+#business h2 {
+  font-weight: bolder;
+}
+
+#business img {
+  width: 15rem;
+  height: 15rem;
+}
+
+
+
