@@ -9,6 +9,19 @@ function App() {
       <header>
         <h1>Ravenous</h1>
       </header>
+      <div id='searchImage' style={{backgroundImage: `url(${CookingImg})`}}>
+        <div id='rating'>
+            <h6>Best<br/>Match</h6>
+            <h6>Highest<br/>Rated</h6>
+            <h6>Most<br/>Reviewed</h6>
+        </div>
+        <div id='line'></div>
+        <div id='searchBar'>
+          <input type='text' placeholder='Search Businesses'/>
+          <input type='text' placeholder='Where?'/>
+        </div>
+        <button>Let's Go</button>
+      </div>
       <BusinessList/>
     </body>
     
